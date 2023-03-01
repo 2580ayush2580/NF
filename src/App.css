@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.App {
+  font-family: Titillium Web !important;
+  width: 100%;
+  margin: auto;
+}
+
+.h-50 {
+  height: 4.2rem;
+}
+
+.w-50 {
+  width: 4rem;
+}
+
+.m1 {
+  margin: 1rem;
+}
+
+.fixed-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.primary {
+  color: #17c95f;
+}
+
+.bg-primary {
+  background-color: #17c95f;
+}
+
+.danger {
+  color: red;
+}
+
+.bg-color {
+  background-color: red;
+}
+
+.secondry {
+  color: #813588;
+}
+
+.bg-secondry {
+  background-color: #f4f5ff;
+}
+
+.br-1 {
+  border-radius: 4px;
+}
+
+.br-2 {
+  border-radius: 8px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.custom-btn {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
+
+.cardBg {
+  background-color: #ffff00;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}

@@ -1,0 +1,2 @@
+export const GET_PEOPLE_DATA = "GET_PEOPLE_DATA";
+export const GET_SPECIES_DATA = "GET_SPECIES_DATA";
